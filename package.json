@@ -1,6 +1,5 @@
 {
     "name": "dojo-blog",
-    "homepage": "https://Rahat47.github.io/the-dojo-blog-react",
     "version": "1.0.0",
     "private": true,
     "dependencies": {
