@@ -5,8 +5,9 @@ import useFetch from "../../Hooks/useFetch";
 const BlogDetails = () => {
     const history = useHistory();
     const { id } = useParams();
-    const url = `http://localhost:8000/blogs/${id}`;
+    const url = `https://my-json-server.typicode.com/Rahat47/the-dojo-blog-react/blogs/${id}`;
     const { data: blog, error, isPending } = useFetch(url);
+
     const handleClick = () => {
         fetch(url, {
             method: "DELETE",

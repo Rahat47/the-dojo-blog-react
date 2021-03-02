@@ -9,7 +9,8 @@ const CreateBlog = () => {
 
     const history = useHistory();
 
-    const url = "http://localhost:8000/blogs";
+    const url =
+        "https://my-json-server.typicode.com/Rahat47/the-dojo-blog-react/blogs";
 
     const handleSubmit = e => {
         e.preventDefault();

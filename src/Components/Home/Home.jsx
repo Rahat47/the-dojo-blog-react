@@ -3,7 +3,8 @@ import useFetch from "../../Hooks/useFetch";
 import BlogList from "../Blog/BlogList";
 
 const Home = () => {
-    const url = "http://localhost:8000/blogs";
+    const url =
+        "https://my-json-server.typicode.com/Rahat47/the-dojo-blog-react/blogs";
     const { data: blogs, isPending, error } = useFetch(url);
 
     return (
